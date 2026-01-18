@@ -1,7 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Companycomponent } from "./github/companycomponent/companycomponent";
-
+import { Companycomponent } from './companycomponent/companycomponent';
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet],
@@ -17,5 +16,6 @@ export class App {
 // git add .
 // git commit -m "Company CRUD using template-driven form"
 // git branch -M main
-// git remote add origin https://github.com/bananovuetify/company-crud.gitgit remote add origin https://github.com/bananovuetify/company-crud.git
+// git remote add origin https://github.com/bananovuetify/companycrud.git 
+// git remote add origin https://github.com/bananovuetify/company-crud.git
 // git push -u origin main

@@ -1,6 +1,5 @@
 import { Routes } from '@angular/router';
-import { Companycomponent } from './github/companycomponent/companycomponent';
-
+import { Companycomponent } from './companycomponent/companycomponent';
 export const routes: Routes = [
         {
         path:'',
